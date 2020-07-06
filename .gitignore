@@ -1,0 +1,55 @@
+# workspace files are user-specific
+*.sublime-workspace
+
+# phpstorm
+.phpstorm_helpers/
+
+#netbeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Notepad++ backups #
+*.bak
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+.env
+# virtualenv
+/.env/
+
+#vagrant
+.vagrant
+vagrant_local.rb
+/.idea
+
+#mergefile
+*.orig
+
+#xhprof
+/xhprof
+
+#node
+node_modules/
+build/config/local.json
+build/config/scss_tmp/
+build/package-lock.json
+
+out/*
